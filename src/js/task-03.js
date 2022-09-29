@@ -19,7 +19,7 @@ const galleryEl = document.querySelector('.gallery');
 
 
 const makeMarUpImages = (({url, alt}) => 
- {return `<li class='item-image'><img src="${url}" alt="${alt}" width="120"></li>`} )  
+ {return `<li class='item-image'><img src="${url}" alt="${alt}"></li>`} )  
 
 
 console.log(makeMarUpImages(images[0]));
