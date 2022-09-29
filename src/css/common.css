@@ -22,3 +22,9 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.item-image {
+  width: 120;  
+  display: inline-flex;
+  margin: 10px;
+}
