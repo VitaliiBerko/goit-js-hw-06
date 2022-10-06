@@ -15,17 +15,12 @@ const images = [
 
 
 const galleryEl = document.querySelector('.gallery');
-// console.log(gallery);
-
 
 const makeMarUpImages = (({url, alt}) => 
- {return `<li class='item-image'><img src="${url}" alt="${alt}"></li>`} )  
-
-
-console.log(makeMarUpImages(images[0]));
+ {return `<li class='item-image'><img src="${url}" alt="${alt}" width=200></li>`} )  
 
 const makeListImames = images.map(makeMarUpImages).join('');
-// console.log(makeListImames);
+
 galleryEl.insertAdjacentHTML('afterbegin', makeListImames);
 
 

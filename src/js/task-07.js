@@ -10,5 +10,5 @@ console.log(textOutput);
 inputRangeRef.addEventListener('input', onRangeChange);
 
 function onRangeChange(event) {
-   textOutput.style.fontSize = event.currentTarget.value -36+'px';
+   textOutput.style.fontSize = event.currentTarget.value - 36 + 'px';
 }

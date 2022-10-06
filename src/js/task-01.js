@@ -13,10 +13,6 @@ nameCtegory.forEach(category =>console.log(`Category: ${category.textContent};`,
 // nameCtegory.forEach(category =>
 //     console.log(`Elements: ${category.nextElementSibling.children.length}`));
 
-
-
-
-
 // const categories = document.querySelectorAll('.item');
 
 // console.log(`Number of categories: ${categories.length}`);

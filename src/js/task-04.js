@@ -1,7 +1,7 @@
 
 let caunterValue = 0;
 
-const buttonDecrement = document.querySelector('button[data-action="decrement"]');
+const buttonDecrement = document.querySelector('[data-action="decrement"]');
 
 const valueRef =document.querySelector('#value');
 
@@ -10,8 +10,7 @@ caunterValue -=1;
 valueRef.textContent = caunterValue}
 );
 
-
-const buttonIncrement = document.querySelector('button[data-action="increment"]');
+const buttonIncrement = document.querySelector('[data-action="increment"]');
 
 buttonIncrement.addEventListener('click', () => {
     caunterValue+=1;

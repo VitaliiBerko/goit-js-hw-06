@@ -24,7 +24,7 @@ button {
 }
 
 .item-image {
-  width: 120;  
-  display: inline-flex;
+  
+  display: flex;
   margin: 10px;
 }
