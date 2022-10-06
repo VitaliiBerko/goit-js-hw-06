@@ -34,7 +34,7 @@ function createBoxes(amount) {
 
   } 
   divBoxesRef.append(...divElemets);
-      
+    
 };
 
 
@@ -42,4 +42,5 @@ deleteBoxesBtn.addEventListener('click', onClickDeleteBoxes);
 
 function onClickDeleteBoxes() {
   divBoxesRef.innerHTML = '';
+  numberInput.value = '';
 }
