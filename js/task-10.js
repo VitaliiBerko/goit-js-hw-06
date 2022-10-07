@@ -16,14 +16,9 @@ createBoxesBtn.addEventListener('click', createBoxes);
 function createBoxes(amount) {
   amount = numberInput.value;
 
-  // if(amount = '') {
-  //   alert('Write number');
-  //   return 
-  //     } 
-
   const divElemets =[];
 
-  for (let i=0; i<=amount;  i+=1) {
+  for (let i=0; i<amount;  i+=1) {
     const divEl = document.createElement('div');    
     divEl.style.width = 30+10*i+'px';
     divEl.style.height = 30+10*i+'px';
@@ -34,9 +29,8 @@ function createBoxes(amount) {
 
   } 
   divBoxesRef.append(...divElemets);
-    
+  numberInput.value = '';  
 };
-
 
 deleteBoxesBtn.addEventListener('click', onClickDeleteBoxes);
 
